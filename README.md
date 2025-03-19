@@ -1,36 +1,36 @@
-# FriendZone - A full-stack realtime messaging chat application
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A project to learn modern full-stack development made by Josh.
+## Getting Started
 
-## Features
+First, run the development server:
 
-- Realtime messaging
-- Adding friends and sending friend requests via email
-- Performant database queries with Redis
-- Responsive UI built with TailwindCSS
-- Protection of sensitive routes
-- Google authentication
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- Built with TypeScript
-- TailwindCSS
-- Icons from Lucide
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Class merging with tailwind-merge
-- Conditional classes with clsx
-- Variants with class-variance-authority
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Things I forgot in the video
-- [Adding metadata to some pages](https://github.com/joschan21/nextjs-realtime-chat/blob/master/src/app/(dashboard)/dashboard/chat/%5BchatId%5D/page.tsx)
-- [Adding a favicon](https://github.com/joschan21/nextjs-realtime-chat/blob/master/public/favicon.ico)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Acknowledgements
+## Learn More
 
-- [Awesome Button UI Component](https://ui.shadcn.com/)
+To learn more about Next.js, take a look at the following resources:
 
-## Feedback
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-If you have any feedback, please reach out to me at admin@wordful.ai
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## License
+## Deploy on Vercel
 
-[MIT](https://choosealicense.com/licenses/mit/)
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

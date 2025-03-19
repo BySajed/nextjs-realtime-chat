@@ -17,12 +17,6 @@ interface LayoutProps {
   children: ReactNode
 }
 
-// Done after the video and optional: add page metadata
-export const metadata = {
-  title: 'FriendZone | Dashboard',
-  description: 'Your dashboard',
-}
-
 const sidebarOptions: SidebarOption[] = [
   {
     id: 1,

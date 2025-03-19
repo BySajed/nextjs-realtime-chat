@@ -3,8 +3,10 @@ import './globals.css'
 
 // Done after the video and optional: add page metadata
 export const metadata = {
-  title: 'FriendZone | Home',
-  description: 'Welcome to the FriendZone',
+  title: 'Sentinelle.chat',
+  icons: {
+    icon: '/favicon.ico',
+  }
 }
 
 export default function RootLayout({
