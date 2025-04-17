@@ -1,3 +1,4 @@
+import { Logo } from '@/components/Logo';
 import Providers from '@/components/Providers'
 import { ThemeProvider } from "@/components/theme-provider"
 import { ThemeToggle } from '@/components/ui/theme-toggle';
